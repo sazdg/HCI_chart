@@ -1,0 +1,23 @@
+body {
+    background-color: gainsboro;
+}
+
+#header {
+    background-color:khaki;
+    padding: 10px 50px;
+}
+
+
+canva {
+    display: block;
+    height: 254px;
+    width: 508px;
+}
+
+#footer {
+    background-color:gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10px;
+}
