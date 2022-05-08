@@ -1,10 +1,9 @@
-const myChart = document.getElementById('myChart').getContext('2d');
-
+const myChart2 = document.getElementById('myChart2').getContext('2d');
 
 Chart.defaults.global.defaultFontFamily = 'Arial';
 Chart.defaults.global.defaultFontSize = 18;
 Chart.defaults.global.defaultFontColor = '#777';
-const grafico = new Chart(myChart, {
+const grafico2 = new Chart(myChart2, {
     type: 'bar',
     data: {
         labels: ['red', 'blue', 'yellow', 'green', 'purple', 'orange'],
