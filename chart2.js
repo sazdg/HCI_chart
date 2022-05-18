@@ -35,19 +35,19 @@ xmlhttp.onreadystatechange = function() {
                     data: data,
                     borderWidth: 1,
                     fill: false,
-                    borderColor: 'red'
+                    borderColor: '#1abe67'
                 }, {
                     label: 'Decessi',
                     data: data1,
                     borderWidth: 1,
                     fill: false,
-                    borderColor: 'blue'
+                    borderColor: '#c41340'
                 }, {
                     label: "Ricoverati",
                     data: data2,
                     borderWidth: 1,
                     fill: false,
-                    borderColor: 'green'
+                    borderColor: '#136fe2'
                 }]
         },
         options: {
