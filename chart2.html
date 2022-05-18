@@ -24,28 +24,28 @@
 <body>
     <div id="header" class="text-center">
         <div id="navbar">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn" id="btn-header-off">
                 <a href="index.html" style="color: #fff;">CHART#1</a>
             </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn" id="btn-header-on">
                 <a href="chart2.html" style="color: #fff;">CHART#2</a>
             </button>
         </div>
     </div>
-    <h3 class="text-center p-3">GRUPPO Y</h3>
+    <h3 class="text-center p-3">Data Visualization con chart.js</h3>
     <h5 class="text-center">Chart #2</h5>
+    <h6 class="text-center">Andamento Covid-19 a Cuba nel periodo 2020-2022</h6>
     <div id="corpo" class="container">
 
-        <canvas id="myChart2" width="1016" height="508"></canvas>
-        <script src="chart2.js"></script>
-
+    <canvas id="myChart2" width="1016" height="508"></canvas>
+        
     </div>
-    <div id="footer">
+    <footer id="footer" class="fixed-bottom">
         <span>Gruppo Y</span>
-        <span>Assignment Libreria Chart.js</span>
+        <span>Sara De Grandis, Denise Iacoviello, Giulia Licari, Isabella Russo</span>
         <span>Human Computer Interaction 2021-2022</span>
-    </div>
-
+    </footer>
+<script src="chart2.js"></script>
 </body>
 
 </html>

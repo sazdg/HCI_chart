@@ -24,35 +24,35 @@
 <body>
     <div id="header" class="text-center">
         <div id="navbar">
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn" id="btn-header-on">
                 <a href="index.html" style="color: #fff;">CHART#1</a>
             </button>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn" id="btn-header-off">
                 <a href="chart2.html" style="color: #fff;">CHART#2</a>
             </button>
         </div>
     </div>
-    <h3 class="text-center p-3">GRUPPO Y</h3>
-    <h5 class="text-center">Torino Covid 2022 - charts #1</h5>
+    <h3 class="text-center p-3">Data Visualization con chart.j</h3>
+    <h5 class="text-center">Charts #1</h5>
+    <h6 class="text-center">Piemonte Covid-19 periodo Marzo-Aprile 2022</h6>
     <div id="corpo" class="container">
 
         <canvas id="myChart" width="1016" height="508"></canvas>
-        <script src="chart.js"></script>
 
 
         <div class="text-center p-3">
-            <button type="button" class="btn btn-secondary" onclick="loadMarzo()">Marzo</button>
-            <button type="button" class="btn btn-secondary" onclick="loadAprile()">Aprile</button>
+            <button type="button" class="btn" id="btn-off" onclick="loadMarzo()">Marzo</button>
+            <button type="button" class="btn" id="btn-on" onclick="loadAprile()">Aprile</button>
         </div>
         
 
     </div>
-    <div id="footer">
+    <footer id="footer" class="fixed-bottom">
         <span>Gruppo Y</span>
-        <span>Assignment Libreria Chart.js</span>
+        <span>Sara De Grandis, Denise Iacoviello, Giulia Licari, Isabella Russo</span>
         <span>Human Computer Interaction 2021-2022</span>
-    </div>
-    
+    </footer>
+    <script src="chart.js"></script>
 </body>
 
 </html>

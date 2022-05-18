@@ -3,10 +3,9 @@ body {
 }
 
 #header {
-    background-color:khaki;
+    background-color:#8d99ae;
     padding: 10px 50px;
 }
-
 
 canva {
     display: block;
@@ -15,9 +14,25 @@ canva {
 }
 
 #footer {
-    background-color:gold;
+    background-color:#8d99ae;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px 10px;
+    color: #fff;
+}
+
+#btn-header-on {
+    background-color: #2b2d42;
+}
+#btn-header-off {
+    background-color: #2b2d424f;
+}
+#btn-on {
+    background-color: #ef233c;
+    color: #fff;
+}
+#btn-off {
+    background-color: #ef233b7e;
+    color: #fff;
 }
