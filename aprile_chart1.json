@@ -1,0 +1,182 @@
+[
+ {
+   "Data": "01/04/22",
+   "Positivi": 3109,
+   "Decessi": 3,
+   "Tamponi": 32836
+ },
+ {
+   "Data": "02/04/22",
+   "Positivi": 2665,
+   "Decessi": 5,
+   "Tamponi": 33999
+ },
+ {
+   "Data": "03/04/22",
+   "Positivi": 1724,
+   "Decessi": 1,
+   "Tamponi": 18108
+ },
+ {
+   "Data": "04/04/22",
+   "Positivi": 2566,
+   "Decessi": 2,
+   "Tamponi": 26675
+ },
+ {
+   "Data": "05/04/22",
+   "Positivi": 3895,
+   "Decessi": 8,
+   "Tamponi": 32258
+ },
+ {
+   "Data": "06/04/22",
+   "Positivi": 3368,
+   "Decessi": 5,
+   "Tamponi": 27799
+ },
+ {
+   "Data": "07/04/22",
+   "Positivi": 3330,
+   "Decessi": 3,
+   "Tamponi": 28944
+ },
+ {
+   "Data": "08/04/22",
+   "Positivi": 3252,
+   "Decessi": 9,
+   "Tamponi": 31850
+ },
+ {
+   "Data": "09/04/22",
+   "Positivi": 3020,
+   "Decessi": 8,
+   "Tamponi": 32755
+ },
+ {
+   "Data": "10/04/22",
+   "Positivi": 1758,
+   "Decessi": 3,
+   "Tamponi": 17208
+ },
+ {
+   "Data": "11/04/22",
+   "Positivi": 2832,
+   "Decessi": 2,
+   "Tamponi": 26765
+ },
+ {
+   "Data": "12/04/22",
+   "Positivi": 4064,
+   "Decessi": 4,
+   "Tamponi": 32015
+ },
+ {
+   "Data": "13/04/22",
+   "Positivi": 3680,
+   "Decessi": 6,
+   "Tamponi": 27751
+ },
+ {
+   "Data": "14/04/22",
+   "Positivi": 3803,
+   "Decessi": 2,
+   "Tamponi": 30970
+ },
+ {
+   "Data": "15/04/22",
+   "Positivi": 3359,
+   "Decessi": 4,
+   "Tamponi": 30244
+ },
+ {
+   "Data": "16/04/22",
+   "Positivi": 3518,
+   "Decessi": 2,
+   "Tamponi": 31804
+ },
+ {
+   "Data": "17/04/22",
+   "Positivi": 2086,
+   "Decessi": 0,
+   "Tamponi": 16436
+ },
+ {
+   "Data": "18/04/22",
+   "Positivi": 826,
+   "Decessi": 0,
+   "Tamponi": 10367
+ },
+ {
+   "Data": "19/04/22",
+   "Positivi": 3579,
+   "Decessi": 3,
+   "Tamponi": 25166
+ },
+ {
+   "Data": "20/04/22",
+   "Positivi": 5279,
+   "Decessi": 11,
+   "Tamponi": 35046
+ },
+ {
+   "Data": "21/04/22",
+   "Positivi": 2720,
+   "Decessi": 3,
+   "Tamponi": 20391
+ },
+ {
+   "Data": "22/04/22",
+   "Positivi": 5710,
+   "Decessi": 6,
+   "Tamponi": 35521
+ },
+ {
+   "Data": "23/04/22",
+   "Positivi": 3951,
+   "Decessi": 1,
+   "Tamponi": 39928
+ },
+ {
+   "Data": "24/04/22",
+   "Positivi": 2769,
+   "Decessi": 4,
+   "Tamponi": 21253
+ },
+ {
+   "Data": "25/04/22",
+   "Positivi": 1084,
+   "Decessi": 0,
+   "Tamponi": 11623
+ },
+ {
+   "Data": "26/04/22",
+   "Positivi": 1642,
+   "Decessi": 3,
+   "Tamponi": 14747
+ },
+ {
+   "Data": "27/04/22",
+   "Positivi": 5973,
+   "Decessi": 7,
+   "Tamponi": 42105
+ },
+ {
+   "Data": "28/04/22",
+   "Positivi": 3718,
+   "Decessi": 3,
+   "Tamponi": 29978
+ },
+ {
+   "Data": "29/04/22",
+   "Positivi": 3402,
+   "Decessi": 6,
+   "Tamponi": 30279
+ },
+ {
+   "Data": "30/04/22",
+   "Positivi": 3023,
+   "Decessi": 6,
+   "Tamponi": 37212
+ }
+]
