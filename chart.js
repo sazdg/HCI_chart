@@ -1,40 +1,63 @@
 const myChart = document.getElementById('myChart').getContext('2d');
 
-
+//var globali del grafico
 Chart.defaults.global.defaultFontFamily = 'Arial';
 Chart.defaults.global.defaultFontSize = 18;
 Chart.defaults.global.defaultFontColor = '#777';
-const grafico = new Chart(myChart, {
-    type: 'bar',
+
+
+//grafico multi axis line chart 
+
+const config = {
+    type: 'line',
     data: {
-        labels: ['red', 'blue', 'yellow', 'green', 'purple', 'orange'],
+        labels: ['lbl1', 'lbl2', 'lbl3'],
         datasets: [{
-            label: '# of votes',
-            data: [12, 19, 3, 5, 2, 5],
-            backgroundColor: [
-                'red',
-                'blue',
-                'yellow',
-                'green',
-                'purple',
-                'orange'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
+            label: 'Contagi',
+            data: [10, 20, 40, 60, 100],
+            borderWidth: 1,
+            fill: false,
+            borderColor: 'green',
+        }, {
+            label: 'Decessi',
+            data: [49, 70, 20, 10, 23],
+            borderWidth: 1,
+            fill: false,
+            borderColor: 'blue',
+        }, {
+            label: 'Guariti',
+            data: [50, 100, 20, 40, 30],
+            borderWidth: 1,
+            fill: false,
+            borderColor: 'red',
+        }
+        ]
     },
     options: {
-        scales: {
-            y: {
-                beginAtZero: true
+        // title: {
+        //     display: true,
+        //     text: 'Casi covid-19 torino',
+        //     fontSize: 12
+        // },
+        // legend: {
+        //     display: true,
+        //     position: top,
+        //     labels: {
+        //         fontColor: '#000'
+        //     }
+        // },
+        layout:{
+            padding: {
+                left: 50,
+                right: 0,
+                bottom: 0,
+                top: 0
             }
+        },
+        tooltips: {
+            enabled: true
         }
     }
-});
+};
+
+var chart = new Chart(myChart, config);
