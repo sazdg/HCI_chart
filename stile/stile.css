@@ -37,10 +37,24 @@ canva {
 
 #btn-header-on {
     background-color: #2b2d42;
+    color: #fff;
 }
 #btn-header-off {
     background-color: #2b2d424f;
+    color: #fff;
+
 }
+#btn-header-on:hover {
+    background-color: #2b2d42;
+    color: #fff;
+    text-decoration: underline;
+}
+#btn-header-off:hover {
+    background-color: #2b2d424f;
+    color: #fff;
+    text-decoration: underline;
+}
+
 #btn-on {
     background-color: #ef233c;
     color: #fff;
