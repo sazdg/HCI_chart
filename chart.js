@@ -75,19 +75,19 @@ function loadMarzo() {
                     data: positiviTotal,
                     borderWidth: 1,
                     fill: false,
-                    borderColor: 'green'
+                    borderColor: '#1abe67'
                 }, {
                     label: 'Decessi',
                     data: decessiTotal,
                     borderWidth: 1,
                     fill: false,
-                    borderColor: 'blue'
+                    borderColor: '#c41340'
                 }, {
                     label: 'Tamponi',
                     data: tamponiTotal,
                     borderWidth: 1,
                     fill: false,
-                    borderColor: 'red'
+                    borderColor: '#5f4bff'
                 }
             ]
         },

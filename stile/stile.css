@@ -1,5 +1,14 @@
+html, body {
+    height: 100%;
+}
 body {
     background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    flex-shrink: 0;
+    bottom: 0;
 }
 
 #header {
@@ -15,14 +24,15 @@ canva {
 
 #footer {
     background-color:#8d99ae;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 50px 10px;
     color: #fff;
     width: 100%;
+    display: flex;
+    position: static;
     bottom: 0;
-    position: fixed;
+    flex-direction: column;
+    margin-top: auto;
 }
 
 #btn-header-on {
